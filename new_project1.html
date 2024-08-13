@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="icon" type="images/x-icon" href="logo.png">
+    <title>Anime Plz</title>
+
+    <style>
+        .nav-link:hover{
+            border-bottom: 2px solid #0dcaf0;
+        }
+        body {
+            background-color: #1c1c1e;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Anime<span class="text-info">Plz</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#industry">Categories</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Recommendation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Shows</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Movies</a>
+              </li>
+            </ul>
+            <div class="d-flex ms-auto">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info" type="submit">Search</button>
+                </form>
+            </div>
+            <li class="login-link">
+                <a href="#"></a>
+            </li>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="one_piece1.jpeg" height="755px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="naruto.jpg" height="755px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="dragon_ball2.jpg" height="755px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="jujutsu.jpg" height="755px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="AOT.jpg" height="755px" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      <section style="margin-top:50px;">
+
+        <h2  style="margin-left: 20px; margin-bottom: 20px;">Recommendation For You</h2>
+
+        <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <div class="card text-center text-bg-dark mb-3" style="width: 18rem;">
+                    <img src="your_name.jpg" height="400px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Your Name</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-info">Watch Now</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card text-center text-bg-dark mb-3" style="width: 18rem;">
+                    <img src="demon_slayer.jpg" height="400px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Demon Slayer</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-info">Watch Now</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card text-center text-bg-dark mb-3" style="width: 18rem;">
+                    <img src="haikyuu.jpg" height="400px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Haikyuu</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-info">Watch Now</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card text-center text-bg-dark mb-3" style="width: 18rem;">
+                    <img src="fullmetal.jpg" height="400px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Fullmetal Alchemist: Brotherhood</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-info">Watch Now</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+</body>
+</html>
